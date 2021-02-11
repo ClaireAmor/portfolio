@@ -646,13 +646,8 @@ section h1{
 }
 
 #mail:hover{
-    text-align: center;
-    top: 40%;
-    position: relative;
-    font-size: 400%;
-    font-family: "Almond Nougat";
-    color: black;
-    filter: drop-shadow(0px 0px 5px black);
+    color: khaki;
+    filter: drop-shadow(0px 0px 5px khaki);
 }
 
 .textAlign{
