@@ -291,6 +291,9 @@ section h1{
     font-size: 120%;
 }
 
+.petit{
+    font-size: 0.8em;
+}
 
 /*timeLine*/
 
@@ -632,29 +635,23 @@ section h1{
     padding: 2%;
     /* white-space: nowrap; */
     border-radius: 20px;
-    height: 200%;
+    
 }
 
-#mail{
-    text-align: center;
-    top: 40%;
-    position: relative;
-    font-size: 400%;
-    font-family: "Almond Nougat";
+.cassePasTout{
+    display: flex;
+    align-items: center;
+    
     color: antiquewhite;
-    filter: drop-shadow(0px 0px 5px antiquewhite);
 }
 
-#mail:hover{
-    color: khaki;
-    filter: drop-shadow(0px 0px 5px khaki);
+.cassePasTout a{
+    color: antiquewhite;
 }
 
-.textAlign{
-    text-align: center;
-    height: 100%;
+.cassePasTout a:hover{
+    filter: drop-shadow(0px 0px 5px rgb(240, 248, 255));
 }
-
 
 /*refereces*/
 
@@ -704,43 +701,48 @@ section h1{
 
 /*formulaire*/
 
-form{
-    margin-top: 50px;
+
+
+.gridC {
+    display: grid; 
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 3%;
+    row-gap: 30%;
+    padding-top: 20%;
+    max-width: 1380px;
+    margin: auto;
+    position: relative;
+    z-index: 41;
+    top: -15%;
+    
 }
 
-.form-control{
-    width: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
+.grid-itemC {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2%;
+    /* white-space: nowrap; */
+    border-radius: 20px;
+    height: 200%;
+}
+
+#mail{
+    text-align: center;
+    top: 40%;
+    position: relative;
+    font-size: 400%;
+    font-family: "Almond Nougat";
     color: antiquewhite;
-    font-size: 18px;
-    margin-bottom: 16px;
+    filter: drop-shadow(0px 0px 5px antiquewhite);
 }
 
-input{
-    height: 45px;
+#mail:hover{
+    color: khaki;
+    filter: drop-shadow(0px 0px 5px khaki);
 }
 
-form .submit{
-    background: aliceblue;
-    border-color: transparent;
-    color: gray;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
-    transition: all 1s ease;
-    filter: drop-shadow(0px 0px 5px aliceblue)
-}
-
-form .submit:hover{
-    background-color: gray;
-    color: aliceblue;
-    cursor : pointer;
-    filter: drop-shadow(0px 0px 5px gray)
+.textAlign{
+    text-align: center;
+    height: 100%;
 }
 
 
@@ -857,21 +859,6 @@ form .submit:hover{
     }
 }
 
-
-@media screen and (max-width:700px) {
-    #mail{
-        text-align: center;
-        top: 40%;
-        position: relative;
-        font-size: 200%;
-     
-    }
-}
-
-
-
-
-
 @media screen and (max-width:1300px) {
     .gridProjet{
         top: -10%;
@@ -902,6 +889,16 @@ form .submit:hover{
     }
 }
 
+
+@media screen and (max-width:700px) {
+    #mail{
+        text-align: center;
+        top: 40%;
+        position: relative;
+        font-size: 200%;
+     
+    }
+}
 
 @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
