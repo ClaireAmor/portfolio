@@ -18,7 +18,7 @@ let skillbar = document.querySelectorAll(".skillbar");
 let gridItemP = document.querySelectorAll(".grid-itemP");
 let lightbox = document.getElementById("lightbox");
 
-let tableauNomSkilll = ["HTML", "CSS", "PHP", "JS", "C", "C#", "PYTHON", "MCD MLD", "SQL", "FRENCH", "ENGLISH", "SPANISH", "KRITA", "ILLUSTRATOR", "BLENDER", "ADOBE XD"]
+let tableauNomSkilll = ["HTML", "CSS", "PHP", "JS", "C", "C#", "PYTHON", "MCD MLD", "SQL", "FRENCH", "ENGLISH", "SPANISH", "KRITA", "ILLUSTRATOR", "PHOTOSHOP", "ADOBE XD"]
 
 
 for (let i = 0; i < skillbar.length; i++) {
